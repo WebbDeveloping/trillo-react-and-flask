@@ -1,5 +1,4 @@
 import React from 'react';
-
 export default function Gallery(props) {
   return (
     <div className='gallery'>
@@ -7,7 +6,7 @@ export default function Gallery(props) {
         <img
           src={props.img1}
           alt='Photo of hotel 1'
-          className='gallery__photo'
+          className='gallery__photo card__image'
         />
       </figure>
       <figure className='gallery__item'>
@@ -19,7 +18,7 @@ export default function Gallery(props) {
       </figure>
       <figure className='gallery__item'>
         <img
-          src={props.img3}
+         src={props.img3}
           alt='Photo of hotel 3'
           className='gallery__photo'
         />

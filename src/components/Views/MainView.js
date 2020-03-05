@@ -10,7 +10,7 @@ export default function MainView() {
       <Gallery img1={`img/hotel-1.jpg`} img2={`img/hotel-2.jpg`} img3={`img/hotel-3.jpg`} />
       <Overview name={`Hotel Las Palmas`} />
       <div className='detail'>
-        <Description />
+        <Description type={'hotel'} />
         <UserReview />
       </div>
     </main>

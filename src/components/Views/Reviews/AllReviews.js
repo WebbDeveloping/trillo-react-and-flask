@@ -3,47 +3,152 @@ import Review from './Review';
 
 export default function AllReviews() {
   return (
-<ul class="cards">
-  <li class="cards__item">
-    <div class="card">
-      <div class="card__image card__image--fence"></div>
-      <div class="card__content">
-        <div class="card__title">Flex</div>
-        <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
-        <button class="btn btn--block card__btn">Button</button>
+    <div className='review-page'>
+      <div className='review-page__header'>
+        <h1 className='review-page__header--heading'>Reviews</h1>
       </div>
+      <ul class='cards'>
+        <li className='cards__item'>
+          <Review
+            text={`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          doloremque architecto dicta animi, totam, itaque officia ex.`}
+            img={`img/user-1.jpg`}
+            name={`Nick Smith`}
+            date={`Feb 23rd, 2020`}
+            rating={`7.8`}
+          />
+        </li>
+        <li className='cards__item'>
+          <Review
+            text={`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          doloremque architecto dicta animi, totam, itaque officia ex.`}
+            img={`img/user-1.jpg`}
+            name={`Nick Smith`}
+            date={`Feb 23rd, 2020`}
+            rating={`7.8`}
+          />
+        </li>
+        <li className='cards__item'>
+          <Review
+            text={`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          doloremque architecto dicta animi, totam, itaque officia ex.`}
+            img={`img/user-1.jpg`}
+            name={`Nick Smith`}
+            date={`Feb 23rd, 2020`}
+            rating={`7.8`}
+          />
+        </li>
+        <li className='cards__item'>
+          <Review
+            text={`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          doloremque architecto dicta animi, totam, itaque officia ex.`}
+            img={`img/user-1.jpg`}
+            name={`Nick Smith`}
+            date={`Feb 23rd, 2020`}
+            rating={`7.8`}
+          />
+        </li>
+        <li className='cards__item'>
+          <Review
+            text={`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          doloremque architecto dicta animi, totam, itaque officia ex.`}
+            img={`img/user-1.jpg`}
+            name={`Nick Smith`}
+            date={`Feb 23rd, 2020`}
+            rating={`7.8`}
+          />
+        </li>
+        <li className='cards__item'>
+          <Review
+            text={`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          doloremque architecto dicta animi, totam, itaque officia ex.`}
+            img={`img/user-1.jpg`}
+            name={`Nick Smith`}
+            date={`Feb 23rd, 2020`}
+            rating={`7.8`}
+          />
+        </li>
+        <li className='cards__item'>
+          <Review
+            text={`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          doloremque architecto dicta animi, totam, itaque officia ex.`}
+            img={`img/user-1.jpg`}
+            name={`Nick Smith`}
+            date={`Feb 23rd, 2020`}
+            rating={`7.8`}
+          />
+        </li>
+        <li className='cards__item'>
+          <Review
+            text={`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          doloremque architecto dicta animi, totam, itaque officia ex.`}
+            img={`img/user-1.jpg`}
+            name={`Nick Smith`}
+            date={`Feb 23rd, 2020`}
+            rating={`7.8`}
+          />
+        </li>
+        <li className='cards__item'>
+          <Review
+            text={`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          doloremque architecto dicta animi, totam, itaque officia ex.`}
+            img={`img/user-1.jpg`}
+            name={`Nick Smith`}
+            date={`Feb 23rd, 2020`}
+            rating={`7.8`}
+          />
+        </li>
+        <li className='cards__item'>
+          <Review
+            text={`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          doloremque architecto dicta animi, totam, itaque officia ex.`}
+            img={`img/user-1.jpg`}
+            name={`Nick Smith`}
+            date={`Feb 23rd, 2020`}
+            rating={`7.8`}
+          />
+        </li>
+        <li className='cards__item'>
+          <Review
+            text={`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          doloremque architecto dicta animi, totam, itaque officia ex.`}
+            img={`img/user-1.jpg`}
+            name={`Nick Smith`}
+            date={`Feb 23rd, 2020`}
+            rating={`7.8`}
+          />
+        </li>
+        <li className='cards__item'>
+          <Review
+            text={`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          doloremque architecto dicta animi, totam, itaque officia ex.`}
+            img={`img/user-1.jpg`}
+            name={`Nick Smith`}
+            date={`Feb 23rd, 2020`}
+            rating={`7.8`}
+          />
+        </li>
+        <li className='cards__item'>
+          <Review
+            text={`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          doloremque architecto dicta animi, totam, itaque officia ex.`}
+            img={`img/user-1.jpg`}
+            name={`Nick Smith`}
+            date={`Feb 23rd, 2020`}
+            rating={`7.8`}
+          />
+        </li>
+        <li className='cards__item'>
+          <Review
+            text={`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          doloremque architecto dicta animi, totam, itaque officia ex.`}
+            img={`img/user-1.jpg`}
+            name={`Nick Smith`}
+            date={`Feb 23rd, 2020`}
+            rating={`7.8`}
+          />
+        </li>
+      </ul>
     </div>
-  </li>
-  <li class="cards__item">
-    <div class="card">
-      <div class="card__image card__image--river"></div>
-      <div class="card__content">
-        <div class="card__title">Flex Grow</div>
-        <p class="card__text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
-        <button class="btn btn--block card__btn">Button</button>
-      </div>
-    </div>
-  </li>
-  <li class="cards__item">
-    <div class="card">
-      <div class="card__image card__image--record"></div>
-      <div class="card__content">
-        <div class="card__title">Flex Shrink</div>
-        <p class="card__text">This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.</p>
-        <button class="btn btn--block card__btn">Button</button>
-      </div>
-    </div>
-  </li>
-  <li class="cards__item">
-    <div class="card">
-      <div class="card__image card__image--flowers"></div>
-      <div class="card__content">
-        <div class="card__title">Flex Basis</div>
-        <p class="card__text">This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means "look at my width or height property."</p>
-        <button class="btn btn--block card__btn">Button</button>
-      </div>
-    </div>
-  </li>
-</ul>
   );
 }
